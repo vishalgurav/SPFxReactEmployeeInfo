@@ -9,12 +9,12 @@
   },
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://spchamp.sharepoint.com/sites/EmployeeOnboarding/SitePages/StorMe(1).aspx",
-      "customActions": {
-        "6824109b-62e9-4393-869f-72171a15d73b": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
+      "pageUrl": "https://spchamp.sharepoint.com/sites/EmployeeOnboarding/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "0bda5ffc-1dc8-41f2-9140-239bdc8958fc",
           "properties": {
-            "testMessage": "Test message"
+            "sampleText": "This is custome value"
           }
         }
       }
@@ -25,7 +25,31 @@
         "6824109b-62e9-4393-869f-72171a15d73b": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "Top": "Top of the page",
+            "Bottom": "Bottom of the page"
+          }
+        }
+      }
+    },
+    "employeeStatus": {
+      "pageUrl": "https://spchamp.sharepoint.com/sites/EmployeeOnboarding/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "0bda5ffc-1dc8-41f2-9140-239bdc8958fc",
+          "properties": {
+            "sampleText": "This is custome value"
+          }
+        }
+      }
+    },
+    "menuWithreact": {
+      "pageUrl": "https://spchamp.sharepoint.com/sites/EmployeeOnboarding/SitePages/StorMe(1).aspx",
+      "customActions": {
+        "0bd1c4a3-a00d-487b-ab55-0089ad15821f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top of the page",
+            "Bottom": "Bottom of the page"
           }
         }
       }

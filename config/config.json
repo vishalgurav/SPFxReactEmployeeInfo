@@ -17,11 +17,29 @@
           "manifest": "./src/extensions/employeeMenu/EmployeeMenuApplicationCustomizer.manifest.json"
         }
       ]
+    },
+    "employee-status-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/employeeStatus/EmployeeStatusFieldCustomizer.js",
+          "manifest": "./src/extensions/employeeStatus/EmployeeStatusFieldCustomizer.manifest.json"
+        }
+      ]
+    },
+    "menu-withreact-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/menuWithreact/MenuWithreactApplicationCustomizer.js",
+          "manifest": "./src/extensions/menuWithreact/MenuWithreactApplicationCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "EmployeeDetailsWebPartStrings": "lib/webparts/employeeDetails/loc/{locale}.js",
-    "EmployeeMenuApplicationCustomizerStrings": "lib/extensions/employeeMenu/loc/{locale}.js"
+    "EmployeeMenuApplicationCustomizerStrings": "lib/extensions/employeeMenu/loc/{locale}.js",
+    "EmployeeStatusFieldCustomizerStrings": "lib/extensions/employeeStatus/loc/{locale}.js",
+    "MenuWithreactApplicationCustomizerStrings": "lib/extensions/menuWithreact/loc/{locale}.js"
   }
 }
